@@ -1,0 +1,8 @@
+.bg{
+  background: rgba(0,0,0,.5) url("./ret.jpeg");
+  background-blend-mode: darken;
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; 
+   height: 130vh;
+   background-size: cover; 
+}
