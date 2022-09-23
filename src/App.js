@@ -1,40 +1,16 @@
 import React from "react";
-
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./Theme";
 import "./App.css";
+import Coming from '../src/Components/ComingSoon'
 
 const App = () => {
   return (
-    <div className="bg">
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      <br />
-      <br />
-      <br />
-
-      <br />
-
-      <h1
-        style={{
-          color: "#fff",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-          fontSize: "80px",
-        }}
-      ></h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div >
+       <Coming/>
+      </div>
+    </ThemeProvider>
   );
 };
 
